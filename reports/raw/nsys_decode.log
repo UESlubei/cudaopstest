@@ -1,0 +1,5 @@
+Collecting data...
+Generating '/tmp/nsys-report-8140.qdstrm'
+[1/1] [0%                          ] nsys_decode.nsys-rep[1/1] [0%                          ] nsys_decode.nsys-rep[1/1] [9%                          ] nsys_decode.nsys-rep[1/1] [10%                         ] nsys_decode.nsys-rep[1/1] [===24%                      ] nsys_decode.nsys-rep[1/1] [=======38%                  ] nsys_decode.nsys-rep[1/1] [========41%                 ] nsys_decode.nsys-rep[1/1] [=========43%                ] nsys_decode.nsys-rep[1/1] [================71%         ] nsys_decode.nsys-rep[1/1] [========================99% ] nsys_decode.nsys-rep[1/1] [========================100%] nsys_decode.nsys-rep[1/1] [========================100%] nsys_decode.nsys-rep
+Generated:
+    /home/sdn/wjh/LLM-CUDA-KernelLab/reports/raw/nsys_decode.nsys-rep

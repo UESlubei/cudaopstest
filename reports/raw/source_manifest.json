@@ -1,0 +1,16 @@
+{
+  "csrc/native_check.cu": "1ec32ae6071cdc50c719f85f54ffaaa2bfbab6a0e6f974fe44916c9d6b76db27",
+  "csrc/decode.cuh": "923ec8d29cd0ff7a6dcb430d20896479ce2d1f40da12072a1c12a558d34aa50f",
+  "csrc/common.cuh": "3fc3da5a6e9dad5a44f40a2945da4ea5b26b56a398ca86373187551bd187a415",
+  "csrc/rmsnorm.cuh": "cd2527d3f7bc63846900ab066d94741bc8cce244a1184eaa5558a8f27b4b64d6",
+  "csrc/api.h": "09182681a73db2e6859397504b49050ad2d4f5e7b55f2eaecd63d51d76265479",
+  "csrc/library.cu": "028709ccd1fe44ab647d1b7e51906270c5efc36549dfc4a79b8bdc13f4faa1db",
+  "csrc/gemm.cuh": "24bb5d0d13209a555b9796937e3e99ff8177eb93a1804d94b82986a850e9d557",
+  "tests/test_correctness.py": "1543140b5d225e6ff5e49cf73cb418f70f9212cadec9e2f26e69389210606e3d",
+  "benchmarks/run.py": "03895ab7fbd39f79783a2c876191ffddc38505d6ca993faf78d679243b5edfd8",
+  "benchmarks/confirm.py": "14c6aacd6542cfa687394c7532bd793f9fb6ae4aa01e30d2b258afc803e6fb79",
+  "scripts/make_report.py": "cf943f969d8374243b4ae01b2aec60ab92663ddcb568ec1b65cbf37fad30ec9f",
+  "scripts/build.sh": "2d227514d7aa98a41d9f09dbb25adc2b85cb5f69c7833e9726ad8a519939a55d",
+  "scripts/profile.py": "2ee9e33a9299f4535e5ca721aa107b7bfe49802a83011d29821d015de0071cc1",
+  "lab.py": "64d347a2653911f224dedba832d167ae0dc6e640454f7a7ecae9c2f89d342d65"
+}

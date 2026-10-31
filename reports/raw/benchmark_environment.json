@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-14T12:26:35Z",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "elapsed_seconds": 13.30717158317566,
+  "seed": 20261014,
+  "allow_tf32": false,
+  "allow_fp16_reduced_precision_reduction": false,
+  "command": [
+    "benchmarks/run.py"
+  ],
+  "nvidia_smi": "Wed Oct 14 20:26:35 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 570.86.15              Driver Version: 570.86.15      CUDA Version: 12.8     |\n|-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 3090        Off |   00000000:61:00.0 Off |                  N/A |\n| 46%   52C    P2            265W /  350W |     555MiB /  24576MiB |     67%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n                                                                                         \n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            2091      G   /usr/lib/xorg/Xorg                        4MiB |\n|    0   N/A  N/A            6950      G   /usr/lib/xorg/Xorg                        4MiB |\n|    0   N/A  N/A         1312045      C   python                                  518MiB |\n+-----------------------------------------------------------------------------------------+"
+}

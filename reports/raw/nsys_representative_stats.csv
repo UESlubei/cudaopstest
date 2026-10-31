@@ -1,0 +1,34 @@
+Generating SQLite file reports/raw/nsys_representative.sqlite from reports/raw/nsys_representative.nsys-rep
+Processing [reports/raw/nsys_representative.sqlite] with [/opt/nvidia/nsight-systems/2024.6.2/host-linux-x64/reports/cuda_gpu_kern_sum.py]... 
+Time (%),Total Time (ns),Instances,Avg (ns),Med (ns),Min (ns),Max (ns),StdDev (ns),Name
+43.0,1699143,1,1699143.0,1699143.0,1699143,1699143,0.0,"void decode_online<(bool)0>(const __half *, const __half *, const __half *, const int *, __half *, float *, int, int, int, int, int)"
+18.2,721283,1,721283.0,721283.0,721283,721283,0.0,"decode_pv(const float *, const __half *, const int *, __half *, int, int, int, int)"
+12.9,510434,1,510434.0,510434.0,510434,510434,0.0,"gemm_naive(const __half *, const __half *, __half *, int, int, int)"
+9.8,386721,1,386721.0,386721.0,386721,386721,0.0,"gemm_tiled(const __half *, const __half *, __half *, int, int, int)"
+3.3,131489,1,131489.0,131489.0,131489,131489,0.0,"void decode_online<(bool)1>(const __half *, const __half *, const __half *, const int *, __half *, float *, int, int, int, int, int)"
+2.8,110560,1,110560.0,110560.0,110560,110560,0.0,"decode_qk(const __half *, const __half *, const int *, float *, int, int, int, int)"
+2.4,94753,1,94753.0,94753.0,94753,94753,0.0,"gemm_wmma(const __half *, const __half *, __half *, int, int, int)"
+1.5,59040,1,59040.0,59040.0,59040,59040,0.0,"void rms_fused<(bool)0>(const __half *, const __half *, const __half *, __half *, __half *, int, float)"
+1.5,58496,1,58496.0,58496.0,58496,58496,0.0,"void rms_fused<(bool)1>(const __half *, const __half *, const __half *, __half *, __half *, int, float)"
+1.4,54208,1,54208.0,54208.0,54208,54208,0.0,"void pytorch_flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)0, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)1, (bool)0>(pytorch_flash::Flash_fwd_params)"
+1.1,44641,1,44641.0,44641.0,44641,44641,0.0,"rms_half2(const __half2 *, const __half2 *, const __half2 *, __half2 *, __half2 *, int, float)"
+0.9,33824,1,33824.0,33824.0,33824,33824,0.0,"residual_add(const __half *, const __half *, __half *, int)"
+0.7,27744,1,27744.0,27744.0,27744,27744,0.0,"rms_separate(const __half *, const __half *, __half *, int, float)"
+0.2,9536,1,9536.0,9536.0,9536,9536,0.0,"void pytorch_flash::flash_fwd_splitkv_combine_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (int)4, (int)4, (bool)1>(pytorch_flash::Flash_fwd_params)"
+0.2,8576,1,8576.0,8576.0,8576,8576,0.0,"decode_softmax(const float *, const int *, float *, int, int)"
+0.1,3744,1,3744.0,3744.0,3744,3744,0.0,"decode_merge(const float *, __half *, int, int)"
+
+Processing [reports/raw/nsys_representative.sqlite] with [/opt/nvidia/nsight-systems/2024.6.2/host-linux-x64/reports/nvtx_sum.py]... 
+Time (%),Total Time (ns),Instances,Avg (ns),Med (ns),Min (ns),Max (ns),StdDev (ns),Style,Range
+38.3,589381,1,589381.0,589381.0,589381,589381,0.0,PushPop,:sdpa_flash
+17.5,269724,1,269724.0,269724.0,269724,269724,0.0,PushPop,:rms_0
+6.6,101798,1,101798.0,101798.0,101798,101798,0.0,PushPop,:decode_0_split1
+5.9,91274,1,91274.0,91274.0,91274,91274,0.0,PushPop,:rms_1
+5.2,79301,1,79301.0,79301.0,79301,79301,0.0,PushPop,:decode_2_split16
+4.7,72372,1,72372.0,72372.0,72372,72372,0.0,PushPop,:rms_2
+4.5,69134,1,69134.0,69134.0,69134,69134,0.0,PushPop,:gemm_0
+4.5,68446,1,68446.0,68446.0,68446,68446,0.0,PushPop,:decode_1_split1
+4.4,67179,1,67179.0,67179.0,67179,67179,0.0,PushPop,:rms_3
+4.3,65758,1,65758.0,65758.0,65758,65758,0.0,PushPop,:gemm_1
+4.1,62945,1,62945.0,62945.0,62945,62945,0.0,PushPop,:gemm_2
+

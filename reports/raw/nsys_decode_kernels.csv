@@ -1,0 +1,6 @@
+Generating SQLite file reports/raw/nsys_decode.sqlite from reports/raw/nsys_decode.nsys-rep
+Processing [reports/raw/nsys_decode.sqlite] with [/opt/nvidia/nsight-systems/2024.6.2/host-linux-x64/reports/cuda_gpu_kern_sum.py]... 
+Time (%),Total Time (ns),Instances,Avg (ns),Med (ns),Min (ns),Max (ns),StdDev (ns),Name
+95.2,52448,1,52448.0,52448.0,52448,52448,0.0,"void decode_online<(bool)1>(const __half *, const __half *, const __half *, const int *, __half *, float *, int, int, int, int, int)"
+4.8,2624,1,2624.0,2624.0,2624,2624,0.0,"decode_merge(const float *, __half *, int, int)"
+

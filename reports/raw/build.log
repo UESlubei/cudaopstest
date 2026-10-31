@@ -1,0 +1,71 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z13decode_onlineILb1EEvPK6__halfS2_S2_PKiPS0_Pfiiiii' for 'sm_86'
+ptxas info    : Function properties for _Z13decode_onlineILb1EEvPK6__halfS2_S2_PKiPS0_Pfiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 1 barriers, 140 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compile time = 34.363 ms
+ptxas info    : Compiling entry function '_Z13decode_onlineILb0EEvPK6__halfS2_S2_PKiPS0_Pfiiiii' for 'sm_86'
+ptxas info    : Function properties for _Z13decode_onlineILb0EEvPK6__halfS2_S2_PKiPS0_Pfiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 1 barriers, 140 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compile time = 37.690 ms
+ptxas info    : Compiling entry function '_Z9rms_fusedILb1EEvPK6__halfS2_S2_PS0_S3_if' for 'sm_86'
+ptxas info    : Function properties for _Z9rms_fusedILb1EEvPK6__halfS2_S2_PS0_S3_if
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, used 1 barriers, 1024 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compile time = 40.011 ms
+ptxas info    : Compiling entry function '_Z9rms_fusedILb0EEvPK6__halfS2_S2_PS0_S3_if' for 'sm_86'
+ptxas info    : Function properties for _Z9rms_fusedILb0EEvPK6__halfS2_S2_PS0_S3_if
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, used 1 barriers, 1024 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compile time = 36.336 ms
+ptxas info    : Compiling entry function '_Z12decode_mergePKfP6__halfii' for 'sm_86'
+ptxas info    : Function properties for _Z12decode_mergePKfP6__halfii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 376 bytes cmem[0]
+ptxas info    : Compile time = 21.977 ms
+ptxas info    : Compiling entry function '_Z9decode_pvPKfPK6__halfPKiPS1_iiii' for 'sm_86'
+ptxas info    : Function properties for _Z9decode_pvPKfPK6__halfPKiPS1_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, used 0 barriers, 400 bytes cmem[0]
+ptxas info    : Compile time = 6.732 ms
+ptxas info    : Compiling entry function '_Z14decode_softmaxPKfPKiPfii' for 'sm_86'
+ptxas info    : Function properties for _Z14decode_softmaxPKfPKiPfii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, used 1 barriers, 1028 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compile time = 28.148 ms
+ptxas info    : Compiling entry function '_Z9decode_qkPK6__halfS1_PKiPfiiii' for 'sm_86'
+ptxas info    : Function properties for _Z9decode_qkPK6__halfS1_PKiPfiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, used 0 barriers, 400 bytes cmem[0]
+ptxas info    : Compile time = 13.858 ms
+ptxas info    : Compiling entry function '_Z9gemm_wmmaPK6__halfS1_PS_iii' for 'sm_86'
+ptxas info    : Function properties for _Z9gemm_wmmaPK6__halfS1_PS_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 63 registers, used 1 barriers, 20480 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compile time = 15.000 ms
+ptxas info    : Compiling entry function '_Z10gemm_tiledPK6__halfS1_PS_iii' for 'sm_86'
+ptxas info    : Function properties for _Z10gemm_tiledPK6__halfS1_PS_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, used 1 barriers, 2048 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compile time = 4.364 ms
+ptxas info    : Compiling entry function '_Z10gemm_naivePK6__halfS1_PS_iii' for 'sm_86'
+ptxas info    : Function properties for _Z10gemm_naivePK6__halfS1_PS_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, used 0 barriers, 388 bytes cmem[0]
+ptxas info    : Compile time = 3.600 ms
+ptxas info    : Compiling entry function '_Z9rms_half2PK7__half2S1_S1_PS_S2_if' for 'sm_86'
+ptxas info    : Function properties for _Z9rms_half2PK7__half2S1_S1_PS_S2_if
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, used 1 barriers, 1024 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compile time = 26.793 ms
+ptxas info    : Compiling entry function '_Z12rms_separatePK6__halfS1_PS_if' for 'sm_86'
+ptxas info    : Function properties for _Z12rms_separatePK6__halfS1_PS_if
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, used 1 barriers, 1024 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compile time = 15.924 ms
+ptxas info    : Compiling entry function '_Z12residual_addPK6__halfS1_PS_i' for 'sm_86'
+ptxas info    : Function properties for _Z12residual_addPK6__halfS1_PS_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, used 0 barriers, 380 bytes cmem[0]
+ptxas info    : Compile time = 1.021 ms

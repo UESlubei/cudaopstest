@@ -1,0 +1,31 @@
+========= COMPUTE-SANITIZER
+PASS rms-u        max_abs=0
+PASS rms-y        max_abs=0.000121891
+PASS rms-u        max_abs=0
+PASS rms-y        max_abs=0.000121891
+PASS rms-u        max_abs=0
+PASS rms-y        max_abs=0.000121891
+PASS rms-u        max_abs=0
+PASS rms-y        max_abs=0.000121891
+PASS rms-u        max_abs=0
+PASS rms-y        max_abs=0.0001221
+PASS rms-u        max_abs=0
+PASS rms-y        max_abs=0.0001221
+PASS rms-u        max_abs=0
+PASS rms-y        max_abs=0.0001221
+PASS rms-u        max_abs=0
+PASS rms-y        max_abs=0.0001221
+PASS gemm         max_abs=1.52476e-05
+PASS gemm         max_abs=1.52476e-05
+PASS gemm         max_abs=1.52476e-05
+PASS gemm         max_abs=1.52551e-05
+PASS gemm         max_abs=1.52551e-05
+PASS gemm         max_abs=1.52551e-05
+PASS decode       max_abs=1.52439e-05
+PASS decode       max_abs=1.52439e-05
+PASS decode       max_abs=1.52439e-05
+PASS decode       max_abs=3.02419e-05
+PASS decode       max_abs=3.02419e-05
+PASS decode       max_abs=3.02419e-05
+All native numerical checks passed.
+========= ERROR SUMMARY: 0 errors

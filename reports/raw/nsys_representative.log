@@ -1,0 +1,8 @@
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-b6db.qdstrm'
+[1/1] [0%                          ] nsys_representative.nsys-repProcessing events...
+[1/1] [0%                          ] nsys_representative.nsys-rep[1/1] [===========50%              ] nsys_representative.nsys-rep[1/1] [========================98% ] nsys_representative.nsys-rep[1/1] [========================100%] nsys_representative.nsys-rep[1/1] [========================100%] nsys_representative.nsys-rep
+Captured 11 operator calls; timings here are profiling-only.
+Generated:
+    /home/sdn/wjh/LLM-CUDA-KernelLab/reports/raw/nsys_representative.nsys-rep

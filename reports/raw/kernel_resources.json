@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "_Z13decode_onlineILb1EEvPK6__halfS2_S2_PKiPS0_Pfiiiii",
+    "registers": 40,
+    "static_shared_bytes": 140
+  },
+  {
+    "symbol": "_Z13decode_onlineILb0EEvPK6__halfS2_S2_PKiPS0_Pfiiiii",
+    "registers": 40,
+    "static_shared_bytes": 140
+  },
+  {
+    "symbol": "_Z9rms_fusedILb1EEvPK6__halfS2_S2_PS0_S3_if",
+    "registers": 54,
+    "static_shared_bytes": 1024
+  },
+  {
+    "symbol": "_Z9rms_fusedILb0EEvPK6__halfS2_S2_PS0_S3_if",
+    "registers": 64,
+    "static_shared_bytes": 1024
+  },
+  {
+    "symbol": "_Z12decode_mergePKfP6__halfii",
+    "registers": 40,
+    "static_shared_bytes": 0
+  },
+  {
+    "symbol": "_Z9decode_pvPKfPK6__halfPKiPS1_iiii",
+    "registers": 26,
+    "static_shared_bytes": 0
+  },
+  {
+    "symbol": "_Z14decode_softmaxPKfPKiPfii",
+    "registers": 39,
+    "static_shared_bytes": 1028
+  },
+  {
+    "symbol": "_Z9decode_qkPK6__halfS1_PKiPfiiii",
+    "registers": 38,
+    "static_shared_bytes": 0
+  },
+  {
+    "symbol": "_Z9gemm_wmmaPK6__halfS1_PS_iii",
+    "registers": 63,
+    "static_shared_bytes": 20480
+  },
+  {
+    "symbol": "_Z10gemm_tiledPK6__halfS1_PS_iii",
+    "registers": 38,
+    "static_shared_bytes": 2048
+  },
+  {
+    "symbol": "_Z10gemm_naivePK6__halfS1_PS_iii",
+    "registers": 28,
+    "static_shared_bytes": 0
+  },
+  {
+    "symbol": "_Z9rms_half2PK7__half2S1_S1_PS_S2_if",
+    "registers": 53,
+    "static_shared_bytes": 1024
+  },
+  {
+    "symbol": "_Z12rms_separatePK6__halfS1_PS_if",
+    "registers": 32,
+    "static_shared_bytes": 1024
+  },
+  {
+    "symbol": "_Z12residual_addPK6__halfS1_PS_i",
+    "registers": 12,
+    "static_shared_bytes": 0
+  }
+]
