@@ -1,0 +1,9 @@
+build/
+__pycache__/
+*/__pycache__/
+*.pyc
+.pytest_cache/
+resume/
+reports/raw/*.sqlite
+reports/raw/*.nsys-rep
+reports/raw/*.ncu-rep
